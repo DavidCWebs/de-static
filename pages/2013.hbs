@@ -1,0 +1,51 @@
+---
+title: TwentyThirteen Search
+---
+
+<div class="container">
+    <h1>Default Search Twentythirteen</h1>
+    <p>This is the default searchform from the Twentythirteen WordPress theme.</p>
+    <p>This is a CSS only implementation of an expanding search bar. Pros:
+    <ul>
+      <li>No JS or jQuery required</li>
+      <li>Expands width on .search-field:focus</li>
+      <li>Uses CSS animations</li>
+      <li>Easy to customise & deploy</li>
+    </ul>
+    Cons:
+    <ul>
+      <li>Search icon is not a suubmit button - .search-submit {display: none; }</li>
+      <li>Clicking the icon opens the search field and has no further function</li>
+      <li>User must press "return" to enter a search</li>
+    </ul>
+    </p>
+    <h3>The Search Box with Custom Style</h3>
+    <div style="float: left; width: 15%; border: solid 1px #fff; height: 200px;">
+        <form role="search" method="get" class="cw-search-form" action="http://carawebstest.com/useful">
+                <label>
+                  <span class="screen-reader-text">Search for:</span>
+                  <input type="search" class="cw-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+                </label>
+                <input type="submit" class="cw-search-submit" value="Search" />
+        </form>
+    </div>
+    <div style="float: left; width: 85%; border: solid 1px #666; height: 200px;">
+      <p>Neighbouring div.</p>
+    </div>
+
+    <!-- ========================================================================
+    Twenty Thirteen Search Form -->
+    <div class="">
+        <form role="search" method="get" class="search-form" action="http://carawebstest.com/useful">
+                <label>
+                  <span class="screen-reader-text">Search for:</span>
+                  <input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+                </label>
+                <input type="submit" class="search-submit" value="Search" />
+        </form>
+    </div>
+
+
+
+  </div><!-- /.container -->
+</body>
